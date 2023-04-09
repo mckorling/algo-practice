@@ -10,7 +10,6 @@ def combinationSum3(k: int, n: int) -> List[List[int]]:
 
     return result
 
-
 def combinationSum3Bactrack(k, n):
     result = []
     def backtrack(remain, combo, next_start):
